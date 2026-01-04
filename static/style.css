@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", Arial, sans-serif;
+}
+
+body {
+    background: linear-gradient(120deg, #eef2ff, #f9fafb);
+    min-height: 100vh;
+}
+
+.container {
+    max-width: 1100px;
+    margin: auto;
+    padding: 40px 20px;
+}
+
+/* HEADER */
+header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+header h1 {
+    font-size: 38px;
+    color: #1f2937;
+}
+
+header p {
+    color: #6b7280;
+    margin-top: 8px;
+}
+
+/* CARDS */
+.card {
+    background: #ffffff;
+    border-radius: 14px;
+    padding: 25px;
+    margin-bottom: 30px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+}
+
+.card h2 {
+    margin-bottom: 18px;
+    color: #374151;
+}
+
+/* FORM */
+.form {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.form input {
+    flex: 1;
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid #d1d5db;
+    font-size: 15px;
+}
+
+.form input:focus {
+    outline: none;
+    border-color: #6366f1;
+}
+
+.form button {
+    padding: 12px 28px;
+    background: #6366f1;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.form button:hover {
+    background: #4f46e5;
+}
+
+/* REVENUE CARD */
+.revenue-card {
+    background: linear-gradient(120deg, #22c55e, #16a34a);
+    color: white;
+    padding: 30px;
+    border-radius: 14px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.revenue-card h2 {
+    font-size: 22px;
+}
+
+.revenue-card p {
+    font-size: 34px;
+    font-weight: bold;
+    margin-top: 12px;
+}
+
+/* TABLE */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+thead {
+    background: #6366f1;
+    color: white;
+}
+
+th, td {
+    padding: 14px;
+    text-align: center;
+}
+
+tbody tr {
+    border-bottom: 1px solid #e5e7eb;
+}
+
+tbody tr:hover {
+    background: #f3f4f6;
+}
+
+/* DELETE BUTTON */
+.delete-btn {
+    background: #ef4444;
+    color: white;
+    padding: 6px 14px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.delete-btn:hover {
+    background: #dc2626;
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    margin-top: 40px;
+    color: #6b7280;
+    font-size: 14px;
+}
