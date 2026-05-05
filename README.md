@@ -5,6 +5,9 @@ This project allows users to record sales, analyze total revenue, view transacti
 
 ---
 
+**🌐 Live Demo**
+🔗 https://pure-optimism-production.up.railway.app/
+
 ## 🚀 Features
 
 - ➕ Add new sales records
